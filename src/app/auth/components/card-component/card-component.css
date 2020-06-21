@@ -1,0 +1,23 @@
+.collapse-content .fa.fa-heart:hover {
+    color: #f44336 !important;
+  }
+  .collapse-content .fa.fa-share-alt:hover {
+    color: #0d47a1 !important;
+  }
+
+  img{
+      width: 100px;
+      display: inline;
+  }
+  .email{
+      display: inline;
+  }
+
+  .row{
+      
+      margin: 0;
+      width: 100%;
+  }
+  .iconSize{
+      font-size: x-large;
+  }

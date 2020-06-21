@@ -1,0 +1,62 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 row justify-content-center mb-5">
+            <div class="avatar mx-auto img">
+                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle">
+                <p class="email h4 ml-3">someone@gmail.com</p>
+            </div>
+        </div>
+        <div class="col-12 mb-5" *ngFor="let i of [1,2,3,4,5,6,7]">
+            <mdb-card>
+                <mdb-card-body>
+
+                    <div class="row ">
+                        <div class="col-12 ">
+                            <div class="avatar mx-auto img">
+                                <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle">
+                                <p class="email h4 ml-3">someone@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consectetur delectus
+                                inventore cum optio excepturi quas eaque quasi vel. Ab earum adipisci nobis ad odio
+                                accusamus incidunt nesciunt quia sit?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quod adipisci animi
+                                reiciendis exercitationem tempora veniam distinctio eligendi illo corporis, sapiente
+                                facere dicta, laboriosam voluptate rerum aperiam fugiat voluptatum error omnis
+                                recusandae illum eius tempore voluptas! Nisi blanditiis soluta, ipsum mollitia iusto
+                                vero nostrum hic optio officia consequatur sed, dolorum omnis ex assumenda? Rerum
+                                beatae aliquid aliquam doloribus porro eligendi mollitia temporibus amet dolorum quo
+                                odio recusandae iure animi eum quis inventore omnis at facilis delectus fuga ab quidem
+                                atque, dolor consequuntur? Mollitia sint rerum nostrum pariatur facere explicabo
+                                tempora. Sint labore ex eius vel totam quis exercitationem sed nisi?
+                            </p>
+
+                        </div>
+                        <div class="col-12 text-right">
+                            <p>{{numberOfLikes}}</p>
+                        </div>
+                        <div class="col-12 text-right iconSize">
+                            <mdb-icon fas icon="heart mr-2" (click)="likeButtonClicked()"></mdb-icon>
+                            <!-- <p>{{numberOfLikes}}</p> -->
+                            <mdb-icon fas icon="comment"></mdb-icon>
+
+                        </div>
+                        <div class="col-10">
+                            <div class="md-form">
+                                <input mdbInput type="text" id="form1" class="form-control">
+                                <label for="form1" class="">Comment here</label>
+
+                            </div>
+                            <div class="col-12 text-right iconSize">
+                                <mdb-icon fas icon="paper-plane"></mdb-icon>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </mdb-card-body>
+            </mdb-card>
+        </div>
+    </div>
+</div>
